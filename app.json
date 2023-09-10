@@ -7,4 +7,9 @@
     "repository": "https://github.com/ayan2235/raven",
     "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/092017/untitled-1_4.png?DAUezIwEogqvq3raF1NmzmUA1uUSkFgy&itok=VKWYdpTb",
     "image": "heroku/python",
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-python"
+      }
+    ]
   }
